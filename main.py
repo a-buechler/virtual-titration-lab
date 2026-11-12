@@ -4,6 +4,15 @@ import math
 import matplotlib.pyplot as plt
 from drafter import *
 
+set_website_title("Virtual Titration Lab")
+set_site_information(
+    author="Abigail Buechler",
+    description="Simulates a virtual titration and generates calculations and a graph.",
+    sources="Drafter guides, in-class lectures, Drafter LLM",
+    planning=["Buechler - CS1 Final Project 0_ Pick a Problem.pdf",
+              "Buechler CS1 Final Project 1_ Design.pdf"],
+    links=["https://github.com/a-buechler/virtual-titration-lab"]
+)
 
 @dataclass
 class Titrant:
